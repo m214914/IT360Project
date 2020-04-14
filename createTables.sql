@@ -9,6 +9,9 @@ CREATE TABLE mids_all (alpha INTEGER NOT NULL,
                       lname VARCHAR(30) NULL,
                       company INTEGER NOT NULL,
                       gender CHAR(1) NULL,
+                      hash VARCHAR(250) NULL,
+                      session TEXT NULL,
+                      lastlogin TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                       CONSTRAINT PK_mids PRIMARY KEY (alpha),
                       CONSTRAINT FK_company FOREIGN KEY (company)
                                   REFERENCES company (code));
