@@ -1,0 +1,14 @@
+delete from attribute_scores;
+delete from academic_attributes;
+delete from all_billets;
+delete from all_forms;
+delete from all_maprs;
+delete from all_prt;
+delete from billets_list;
+delete from form1s;
+delete from leadership_attributes;
+delete from moral_attributes;
+delete from physical_attributes;
+delete from sports_list;
+delete from mids_all;
+delete from all_companies;
